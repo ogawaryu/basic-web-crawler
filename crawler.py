@@ -7,6 +7,7 @@ try:
 	url = sys.argv[1]
 except Exception:
 	print "Aviso: É necessario url por parâmetro.\nExemplo: \n    python crawler.py http://google.com"
+	sys.exit()
 
 request = urllib.urlopen( url )
 html = request.read()
