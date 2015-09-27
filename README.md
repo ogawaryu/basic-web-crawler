@@ -3,6 +3,7 @@
 ###Web Crawler
 ******
 Um simples script para coletar informações do site e mapear tags html, coletando o texto de tag html especificas.
+
 O script foi feito para mostrar o quanto é simples criar um webcrawler em python, com apenas 21 linhas de código eu ja consigo coletar conteúdo.
 
 ###Instalação 
